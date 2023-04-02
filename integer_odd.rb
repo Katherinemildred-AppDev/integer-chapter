@@ -1,4 +1,4 @@
-# should ask the user to enter a number and output 'true' or 'false' 
+# should ask the user to enter a number and output 'true' or 'false'
 # and if the number is odd
 # Example:
 #   "Enter an odd number:"
@@ -10,5 +10,5 @@
 #   false
 
 p "Enter an odd number:"
-user_number = gets
-p user_number.odd?
+their_number = gets
+p their_number.to_i.odd?
